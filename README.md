@@ -52,6 +52,9 @@ classDiagram
     Prestamo "1" -- "1" Usuario : registra
     Biblioteca "1" o-- "0..*" Libro : catalogo
     Biblioteca "1" o-- "0..*" Prestamo : gestiona
+```
+
+```mermaid
 classDiagram
     direction LR
     
@@ -84,3 +87,5 @@ classDiagram
     Pedido "1" *-- "1..*" Plato : contiene
     Mesero "1" -- "0..*" Pedido : toma
     Pedido ..> Mesero : requiere para cuenta
+
+```
